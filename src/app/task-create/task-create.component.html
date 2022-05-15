@@ -1,0 +1,82 @@
+
+<mat-card>
+<span><u>NEW TASK</u></span>
+  <!--<h1>Create Task</h1>-->
+<br><br>
+    <form (submit)="submitTask(taskForm)" #taskForm="ngForm">
+      <mat-form-field>
+
+      <input
+        matInput
+        type="text"
+        name="task_name"
+        ngModel
+        required
+        minlength="3"
+        placeholder="Enter Task Name"
+        #task_name="ngModel">
+      </mat-form-field>
+
+      <br>
+      <mat-form-field>
+
+        <input
+          matInput
+          type="text"
+          name="task_desc"
+          ngModel
+          required
+          minlength="3"
+          placeholder="Enter Task Description"
+          #task_name="ngModel">
+        </mat-form-field>
+
+
+    <br>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="assignee"
+        ngModel
+        required
+        minlength="3"
+        placeholder="Assigned To"
+        #task_name="ngModel">
+      </mat-form-field>
+<br>
+      <mat-form-field>
+        <input
+          matInput
+          type="date"
+          name="s_date"
+          ngModel
+          required
+          placeholder="Task Assigned Date"
+          #task_name="ngModel">
+        </mat-form-field>
+
+        <br>
+
+        <mat-form-field>
+          <input
+            matInput
+            type="date"
+            name="d_date"
+            ngModel
+            required
+
+            placeholder="Task Due Date"
+            #task_name="ngModel">
+          </mat-form-field>
+
+          <br><br>
+<span style="font-size: 30px;"><button><b>SAVE TASK</b></button></span>
+</form>
+</mat-card>
+
+
+
+
+

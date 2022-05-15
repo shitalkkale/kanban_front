@@ -1,0 +1,16 @@
+mat-card{
+  background-color: rgb(51, 204, 51);
+  border: 4px solid rgb(119, 0, 129);
+  width:300;
+ margin-right: 2em;
+ height: 90%;
+}
+span {
+  margin: auto;
+  font-family: "Lucida Handwriting";
+  color: rgb(148, 17, 153);
+  font-size: larger;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
